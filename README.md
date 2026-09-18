@@ -42,10 +42,10 @@ flowchart LR
 | 5. Fit assessment | Requirements mapped to evidence, with the Terraform gap named instead of hidden: [assessment](applications/2026-01-15-example-routes-senior-platform-engineer/assessment.md). |
 | 6. First draft | A typical first draft with typical problems: [CV v1](applications/2026-01-15-example-routes-senior-platform-engineer/cv-v1.md). |
 | 7. Review | A real, unedited review by `claude-opus-5` run without tools: [review](applications/2026-01-15-example-routes-senior-platform-engineer/reviews/review-v1.md), and why each finding was accepted or rejected: [resolution](applications/2026-01-15-example-routes-senior-platform-engineer/reviews/resolution-summary.md). |
-| 8. Second draft | [CV v2](applications/2026-01-15-example-routes-senior-platform-engineer/cv-v2.md), rendered below. |
+| 8. Second draft | [CV v2](applications/2026-01-15-example-routes-senior-platform-engineer/cv-v2.md), rendered below from the same Markdown by the [Modern band builder](docs/pdf-generation.md#modern-band). |
 
 <p align="center">
-  <img src="docs/images/cv-v2-preview.png" alt="CV v2 of the example application as a one-page PDF" width="520">
+  <img src="docs/images/cv-v2-band-preview.png" alt="CV v2 of the example application as a one-page PDF in the Modern band layout" width="560">
 </p>
 
 ## Use it for your own job search
@@ -62,7 +62,7 @@ sources/        Dated notes of what the person said; append-only
 knowledge/      Current facts, each linked to its sources
 applications/   One folder per job: posting, assessment, CV versions, reviews, tracking
 templates/      PDF layout
-scripts/        Link checker and PDF builder
+scripts/        Link checker and two PDF builders
 tests/          Tests for the link checker
 docs/           Workflow, independent reviews and PDF generation
 AGENTS.md       Instructions for agents
@@ -72,7 +72,7 @@ Further reading: [workflow and maintenance](docs/workflow.md), [independent revi
 
 ## Checks
 
-Python 3.10+ and Git. The checker needs only the standard library; the PDF builder needs ReportLab.
+Python 3.10+ and Git. The checker needs only the standard library. For PDFs, the Modern band builder needs a Chromium-based browser and the classic builder needs ReportLab; see [PDF generation](docs/pdf-generation.md).
 
 ```sh
 python scripts/check_repo.py
