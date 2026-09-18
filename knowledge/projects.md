@@ -39,7 +39,7 @@ An internal command-line tool that starts a developer's local environment with t
 A spare-time web app showing wind and sea-level forecasts for small-boat harbours on the Finnish coast, built on open weather and sea-level data.
 
 - TypeScript and React front end, a Node.js caching service, Docker Compose and nginx on a rented virtual server.
-- The person wrote the data caching logic; an AI agent wrote the user interface.
+- The person wrote the data caching logic; an AI agent wrote the user interface. The caching was written by hand because it decides whether the forecasts shown are correct; the interface was left to an agent to learn how far agents get with less familiar front-end work. [Reason](../sources/2026-01-18-cv-v1-feedback.md).
 - Public site; a few dozen visitors a week in summer by the person's estimate.
 
 [Source](../sources/2026-01-11-own-project-harbour-weather.md).

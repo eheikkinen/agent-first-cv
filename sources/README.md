@@ -13,3 +13,4 @@ Everything in this example repository is fictional: the person, the employers, t
 | [2026-01-11 AI in daily work](2026-01-11-ai-in-daily-work.md) | How the person uses and shares AI agents |
 | [2026-01-11 own project: Harbour Weather](2026-01-11-own-project-harbour-weather.md) | A spare-time project |
 | [2026-01-16 platform role clarifications](2026-01-16-platform-role-clarifications.md) | Answers to open questions raised by a fit assessment |
+| [2026-01-18 feedback on CV v1](2026-01-18-cv-v1-feedback.md) | The person's feedback on the first CV text |
