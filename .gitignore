@@ -1,0 +1,13 @@
+# Local settings and temporary files
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+
+# Generated drafts and previews; sent documents live in applications/*/sent/
+applications/*/output/
