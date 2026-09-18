@@ -1,0 +1,26 @@
+{
+  "fonts": [
+    {
+      "regular": "C:/Windows/Fonts/calibri.ttf",
+      "bold": "C:/Windows/Fonts/calibrib.ttf",
+      "italic": "C:/Windows/Fonts/calibrii.ttf",
+      "bold_italic": "C:/Windows/Fonts/calibriz.ttf"
+    },
+    {
+      "regular": "/usr/share/fonts/truetype/crosextra/Carlito-Regular.ttf",
+      "bold": "/usr/share/fonts/truetype/crosextra/Carlito-Bold.ttf",
+      "italic": "/usr/share/fonts/truetype/crosextra/Carlito-Italic.ttf",
+      "bold_italic": "/usr/share/fonts/truetype/crosextra/Carlito-BoldItalic.ttf"
+    }
+  ],
+  "accent": "#173A53",
+  "text": "#202D37",
+  "muted": "#4D5B65",
+  "rule": "#CAD4DB",
+  "margin_mm": 18,
+  "body_size": 10.8,
+  "body_leading": 13.8,
+  "section_space": 13,
+  "paragraph_space": 6,
+  "bullet_space": 6
+}
