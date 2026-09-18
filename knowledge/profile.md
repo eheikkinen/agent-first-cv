@@ -17,4 +17,6 @@ The person's basic details and the kind of work they are looking for. Used for f
 - Backend and platform engineering, with more time for developer tooling than the current role allows.
 - Helping colleagues adopt AI agents in everyday engineering work.
 
+A platform role appeals because it would leave more time for developer tooling and AI adoption. [Source](../sources/2026-01-16-platform-role-clarifications.md).
+
 Open: preferred company size, remote or office work, and salary expectations.

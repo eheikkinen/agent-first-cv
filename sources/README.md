@@ -12,3 +12,4 @@ Everything in this example repository is fictional: the person, the employers, t
 | [2026-01-12 correction: team size and latency](2026-01-12-correction-team-size-and-latency.md) | Corrects two details of the note above |
 | [2026-01-11 AI in daily work](2026-01-11-ai-in-daily-work.md) | How the person uses and shares AI agents |
 | [2026-01-11 own project: Harbour Weather](2026-01-11-own-project-harbour-weather.md) | A spare-time project |
+| [2026-01-16 platform role clarifications](2026-01-16-platform-role-clarifications.md) | Answers to open questions raised by a fit assessment |

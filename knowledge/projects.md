@@ -13,8 +13,9 @@ What the person built, what their own part was and what is known about the resul
 - Wrote most of the consumer services that turn carrier events into status updates. The person estimates their share at about 70 %; this is an unmeasured estimate and is not used as a number in CVs.
 - Built to a product requirement that events reach customers within 60 seconds. There is no measured average or percentile; the person recalls the delay alert rarely firing after launch.
 - The old batch jobs were switched off in spring 2024.
+- Set up the Grafana dashboards and alert rules for the pipeline in 2024. Logs go to Loki; there is no distributed tracing.
 
-[Source](../sources/2026-01-11-event-pipeline-migration.md), [correction to team size and latency](../sources/2026-01-12-correction-team-size-and-latency.md).
+[Source](../sources/2026-01-11-event-pipeline-migration.md), [correction to team size and latency](../sources/2026-01-12-correction-team-size-and-latency.md), [observability](../sources/2026-01-16-platform-role-clarifications.md).
 
 ### Local environment CLI
 
